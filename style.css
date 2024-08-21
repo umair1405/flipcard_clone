@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --main-bg-color: #0f1111;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+
+    font-family: 'Roboto Condensed',
+}
+
+nav {
+    display: flex;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 58px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: red;
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 27px;
+    border-radius: 8px;
+    margin: 0 16px 0 51px;
+    padding: 0 10px;
+}
+
+.slider {
+    margin: 12px auto;
+    width: 80vw;
+    overflow:hidden ;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.card {
+    background-color: white;
+    margin: 27px;
+    max-width: 90vw;
+}
+.card h2{ display: flex;
+    justify-content: center;
+}
+.cards{
+display: flex;
+align-items:center ;
+justify-content: center;
+overflow: hidden;
+}
+.card-item{
+    display: inline-flex;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+
+/* }
+.lines {
+    display: flex;
+    flex-direction: column; */
+}
+footer {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 12vh;
+    font-family: 'Roboto Condensed',
+}
